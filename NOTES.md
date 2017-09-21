@@ -27,3 +27,9 @@ in the wiki there is an howto
 https://wiki.scribus.net/canvas/Windows_Full_Python_Integration
 
 but it does not seem to be working.
+
+what seems to be working:
+
+- rename the scribus' python directory so that scribus cannot find it
+- then scribus will detect your system python
+- warning: the system and the "scribus" pythons must be "binary" compatible. at the moment of writing you can use python 2.7.x with 10 <= x <= 13
