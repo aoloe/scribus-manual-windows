@@ -19,3 +19,11 @@ If you don't want the fonts to be available to all your programs but only in Scr
 - Use the "Add" button to add a new directory to the list of the custom fonts paths.
 - Close the preferences by clicking on "OK" and restart Scribus.
 - Now the fonts that are placed in that directory will be available in Scribus (but you will have to restart Scribus each time you add a new font).
+
+### Using a different Python interpreter
+
+in the wiki there is an howto
+
+https://wiki.scribus.net/canvas/Windows_Full_Python_Integration
+
+but it does not seem to be working.
