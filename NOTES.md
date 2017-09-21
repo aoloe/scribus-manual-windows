@@ -33,3 +33,14 @@ what seems to be working:
 - rename the scribus' python directory so that scribus cannot find it
 - then scribus will detect your system python
 - warning: the system and the "scribus" pythons must be "binary" compatible. at the moment of writing you can use python 2.7.x with 10 <= x <= 13
+
+if you want to use libraries that are installed in an "external" python instance and you know is compatible with the scribus python you can also:
+
+http://forums.scribus.net/index.php?topic=432.0
+
+```.py
+import sys
+sys.path.append('C:\Python27\Lib\site-packages')
+
+from PySide import QtCore, QtGui
+```
