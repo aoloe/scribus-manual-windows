@@ -44,3 +44,9 @@ sys.path.append('C:\Python27\Lib\site-packages')
 
 from PySide import QtCore, QtGui
 ```
+
+## Where are the preference files?
+
+On Windows, the preferences are in
+
+`<username>\AppData\Roaming\Scribus`
